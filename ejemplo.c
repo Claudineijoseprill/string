@@ -1,3 +1,8 @@
+/*
+    Con esta simples heramienta podes concatenar textos, numeros, boleano, double, float, etc infinitamente sin
+    preocuparte en sobreapasar el tamanho del char array
+*/
+
 #include <unistd.h>
 
 #include "str.h"
