@@ -24,5 +24,6 @@ int main(){
     str_free(texto);   // nunca se olviden de limpiar la variable creada con str_new
     sleep(2);
 
+    printf("Exit\n");
     return 0;
 }
