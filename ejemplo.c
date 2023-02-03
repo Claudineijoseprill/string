@@ -17,7 +17,7 @@ int main(){
         str_cat_char(texto, '\n');
     }
 
-    printf("texto %s tamanho %lld\n", texto->c, texto->len);
+    printf("texto %stamanho %lld\n", texto->c, texto->len);
 
     sleep(2);
     printf("freeee\n");
