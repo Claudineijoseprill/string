@@ -1,3 +1,8 @@
+typedef struct{
+    size_t size, len;
+    char *c, *tm;
+} str_t;
+
 str_t *str_new(char const *str);
 str_t *str_new_size(size_t size);
 str_t *str_cat_str(str_t *d, str_t const *da);
